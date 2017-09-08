@@ -5,12 +5,12 @@ void setup()
 void draw()
 {
   background(256,256,256);
-  ellipse();
+  bob();
   if(mousePressed == true)
   	egghatching();
 
 }
-void ellipse()
+void bob()
 {
  ellipse(200, 200, 150, 205);
 }
